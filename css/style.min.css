@@ -1480,6 +1480,8 @@ svg {
     margin-bottom: 30px;
     height: 60px;
 }
+.landing-page .content .content-section.section-about .team-block .blank {
+}
 .landing-page .content .content-section.section-about .team-block .person .photo {
     display: inline-block;
     float: left;
@@ -2491,6 +2493,12 @@ to {
     width: 25%;
     height: 80px;
     margin-bottom: 70px;
+}
+.landing-page .content .content-section.section-about .team-block .blank {
+    width: 25%;
+    height: 80px;
+    margin-bottom: 70px;
+    float: left;
 }
 .landing-page .content .content-section.section-about .team-block .person .photo img {
     width: 80px;
