@@ -1,1252 +1,1489 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#e6aa28">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#e6aa28">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
-    <title>Roburst Network - The next-gen cryptocurrency network</title>
-    <meta name="description" content="Roburst Network is the next generation of cryptocurrency network with unique features and improvements.">
-    <meta name="keywords" content="cryptocurrency, ico, coin, network, roburst, decentralized">
-    <link rel="stylesheet" href="css/style.min.css">
-    <script type="text/javascript" src="js/vendor.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-    <script src="js/main.js"></script> <!-- Resource jQuery -->
+  <title>Roburst Network - The next-gen cryptocurrency network</title>
+  <meta name="description" content="Roburst Network is the next generation of cryptocurrency network with unique features and improvements.">
+  <meta name="keywords" content="cryptocurrency, ico, coin, network, roburst, decentralized">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script type="text/javascript" src="js/vendor.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Roadmap Javascript -->
+  <script src="js/timeline.js"></script>
+  <!-- Resource jQuery -->
+  <script src="js/owl.carousel.min.js"></script>
 </head>
 
 <body class="landing-page js-controller" data-controller="LandingPageController">
 
-<header class="header-desktop js-nav-desktop js-nav js-header">
+  <header class="header-desktop js-nav-desktop js-nav js-header">
     <div class="nav-wrapper">
-        <a href="/" class="logo-wrap js-logo-wrap">
+      <a href="/" class="logo-wrap js-logo-wrap">
           <img src="images/logo.svg" alt="Roburst network logo">
         </a>
-        <div class="badge">
-            Presale
-        </div>
+      <div class="badge">
+        Presale
+      </div>
 
-        <div class="nav-links">
-            <ul>
-              <li class="nav-link"><a href="#features">Features</a></li>
-              <li class="nav-link"><a href="#about">About</a></li>
-              <li class="nav-link"><a href="#roadmap">Roadmap</a></li>
-              <li class="nav-link"><a href="#distribution">Distribution</a></li>
-              <li class="nav-link"><a href="#faq">FAQ</a></li>
-              <li class="nav-link additional"><a href="#team">Team</a></li>
-              <li class="nav-link additional"><a href="#press">Press</a></li>
-            </ul>
-            <div class="buttons">
-                <a class="button uikit-button-login -desktop ga-l-log-in-landing" href="https://roburst.co/login">Log In</a>
-                <a class="button uikit-button-sign-up -desktop ga-l-sign-up-landing" href="https://roburst.co/signup">Sign Up</a>
-            </div>
+      <div class="nav-links">
+        <ul>
+          <li class="nav-link"><a href="#features">Features</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#roadmap">Roadmap</a></li>
+          <li class="nav-link"><a href="#distribution">Distribution</a></li>
+          <li class="nav-link"><a href="#faq">FAQ</a></li>
+          <li class="nav-link additional"><a href="#team">Team</a></li>
+          <li class="nav-link additional"><a href="#press">Press</a></li>
+        </ul>
+        <div class="buttons">
+          <a class="button uikit-button-login -desktop ga-l-log-in-landing" href="https://roburst.co/login">Log In</a>
+          <a class="button uikit-button-sign-up -desktop ga-l-sign-up-landing" href="https://roburst.co/signup">Sign Up</a>
         </div>
+      </div>
     </div>
-</header>
-<header class="header-mobile js-nav-mobile js-nav js-header js-controller" data-controller="PageHeaderController">
+  </header>
+  <header class="header-mobile js-nav-mobile js-nav js-header js-controller" data-controller="PageHeaderController">
     <div class="nav-wrapper">
-        <a href="/" class="logo-wrap js-logo-wrap">
+      <a href="/" class="logo-wrap js-logo-wrap">
           <img src="images/logo.svg" alt="Roburst network logo">
         </a>
-        <div class="badge">
-            Presale
-        </div>
+      <div class="badge">
+        Presale
+      </div>
 
-        <div class="button-menu js-button-menu">
-            <div class="line first"></div>
-            <div class="line second"></div>
-        </div>
+      <div class="button-menu js-button-menu">
+        <div class="line first"></div>
+        <div class="line second"></div>
+      </div>
     </div>
     <div class="menu js-menu">
-        <div class="nav-links">
-            <ul>
-                <li class="nav-link"><a href="#features">Features</a></li>
-                <li class="nav-link"><a href="#about">About</a></li>
-                <li class="nav-link"><a href="#roadmap">Roadmap</a></li>
-                <li class="nav-link"><a href="#distribution">Distribution</a></li>
-                <li class="nav-link"><a href="#faq">FAQ</a></li>
-                <li class="nav-link"><a href="#team">Team</a></li>
-                <li class="nav-link"><a href="#press">Press</a></li>
+      <div class="nav-links">
+        <ul>
+          <li class="nav-link"><a href="#features">Features</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#roadmap">Roadmap</a></li>
+          <li class="nav-link"><a href="#distribution">Distribution</a></li>
+          <li class="nav-link"><a href="#faq">FAQ</a></li>
+          <li class="nav-link"><a href="#team">Team</a></li>
+          <li class="nav-link"><a href="#press">Press</a></li>
 
-            </ul>
-            <div class="buttons">
-                <a class="button uikit-button-login -mobile ga-l-log-in-landing" href="https://roburst.co/login">Log In</a>
-                <a class="button uikit-button-sign-up -mobile ga-l-sign-up-landing" href="https://roburst.co/signup">Sign Up</a>
-            </div>
+        </ul>
+        <div class="buttons">
+          <a class="button uikit-button-login -mobile ga-l-log-in-landing" href="https://roburst.co/login">Log In</a>
+          <a class="button uikit-button-sign-up -mobile ga-l-sign-up-landing" href="https://roburst.co/signup">Sign Up</a>
         </div>
+      </div>
     </div>
-</header>
-<div class="wrapper">
-        <div class="pattern-container"></div>
+  </header>
+  <div class="wrapper">
+    <div class="pattern-container"></div>
     <div class="content">
-        <div class="circle-blue">
+      <div class="circle-blue">
+        <div class="pattern"></div>
+      </div>
+      <section id="get-started">
+        <div class="circle-wrap">
+          <div class="circle-blue">
             <div class="pattern"></div>
+          </div>
         </div>
-        <section id="get-started">
-            <div class="circle-wrap">
-                <div class="circle-blue">
-                    <div class="pattern"></div>
-                </div>
-            </div>
-            <div class="content-section section-top">
-                <div class="circle-grey"></div>
-                <div class="title-block">
-                    <h1 class="main-title">
+        <div class="content-section section-top">
+          <div class="circle-grey"></div>
+          <div class="title-block">
+            <h1 class="main-title">
                         The next-gen cryptocurrency network
                     </h1>
-                    <p class="description">
-                        Faster, more secured than ever. Now at your hand!
-                    </p>
-                </div>
-                <div class="statistic-block">
-                    <div class="button-wrap">
-                        <a class="button ga-l-get-started" href="#press">Whitepaper</a>
-                    </div>
-                    <div class="statistic">
-                        <div class="section">
-                            <div class="count spincrement">
-                                420
-                            </div>Millions
-                            <p class="description">ROC seeded</p>
-                        </div>
-                        <div class="section">
-                            <div class="count spincrement">
-                                315
-                            </div>Millions
-                            <p class="description">ROC for ICO</p>
-                        </div>
-                        <div class="section">
-                            <div class="count spincrement">
-                                3
-                            </div>
-                            <p class="description">remaining ICO round</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="screen-block-no-shadow">
-                    <img class="animated fadeInRightBig" src="images/mobile-wallet.png" alt="Roburst Network Mobile wallet">
-                </div>
-                <div class="integration-block-mobile">
-                    <div class="icon"></div>
-                    <div class="description">
-                        <div class="title">
-                            Mobile payment made easy
-                        </div>
-                        <p class="text">
-                            With Roburst mobile application, cashless payment is easier than ever.
-                            RoburstBridge offers an endless possibilites for Roburst Network.
-                            Send and receive Roburst Coin within the network is in just a blink of eyes.
-                        </p>
-                    </div>
-                </div>
+            <p class="description">
+              Faster, more secured than ever. Now at your hand!
+            </p>
+          </div>
+          <div class="statistic-block">
+            <div class="button-wrap">
+              <a class="button ga-l-get-started" href="#press">Whitepaper</a>
             </div>
-        </section>
-        <section id="features">
-            <div class="content-section section-features">
-                <h1 class="section-title">
-                    Features
-                </h1>
-                <div class="uikit-title-line"></div>
-                <ul class="features">
-                                            <li class="feature js-feature-block">
-                            <div class="icon">
-                                <svg class="diamond-icon">
-                                    <use xlink:href="#l-planet"></use>
-                                </svg>
-                            </div>
-                            <div class="description">
-                                <h2 class="title">
-                                    World-wide payment
-                                </h2>
-                                <p class="text">
-                                    Due to the ability of communicating among chains, Roburst Coin is capable of payment anywhere, anywhen.
-                                </p>
-                            </div>
-                        </li>
-                                            <li class="feature js-feature-block">
-                            <div class="icon">
-                                <svg class="diamond-icon">
-                                    <use xlink:href="#l-copy"></use>
-                                </svg>
-                            </div>
-                            <div class="description">
-                                <h2 class="title">
-                                    Multi-signature
-                                </h2>
-                                <p class="text">
-                                    Multi-signature helps organizations or individuals to make a wallet that require an amount of private key to perform the transaction.
-                                </p>
-                            </div>
-                        </li>
-                                            <li class="feature js-feature-block">
-                            <div class="icon">
-                                <svg class="diamond-icon">
-                                    <use xlink:href="#l-laptop-phone"></use>
-                                </svg>
-                            </div>
-                            <div class="description">
-                                <h2 class="title">
-                                    Cross-platform
-                                </h2>
-                                <p class="text">
-                                    Use Roburst Network anywhere. Supported platform: Web, macOS, Windows, Android, iOS, Linux.
-                                </p>
-                            </div>
-                        </li>
-                                            <li class="feature js-feature-block">
-                            <div class="icon">
-                                <svg class="diamond-icon">
-                                    <use xlink:href="#l-circles"></use>
-                                </svg>
-                            </div>
-                            <div class="description">
-                                <h2 class="title">
-                                    Decentralized
-                                </h2>
-                                <p class="text">
-                                    P2P connection keeps the network from being centralized, also with our consensus algorithm, there is no major server at all.
-                                </p>
-                            </div>
-                        </li>
-                                            <li class="feature js-feature-block">
-                            <div class="icon">
-                                <svg class="diamond-icon">
-                                    <use xlink:href="#l-squares"></use>
-                                </svg>
-                            </div>
-                            <div class="description">
-                                <h2 class="title">
-                                    Cross-chain
-                                </h2>
-                                <p class="text">
-                                    RoburstBridge serves as a medium which help communications between chains easier than ever.
-                                </p>
-                            </div>
-                        </li>
-                                            <li class="feature js-feature-block">
-                            <div class="icon">
-                                <svg class="diamond-icon">
-                                    <use xlink:href="#l-check"></use>
-                                </svg>
-                            </div>
-                            <div class="description">
-                                <h2 class="title">
-                                    Secured
-                                </h2>
-                                <p class="text">
-                                    Roburst Network offers many security options, from mobile to desktop applications.
-                                </p>
-                            </div>
-                        </li>
-                                    </ul>
-                <div class="integration-block">
-                    <div class="icon"></div>
-                    <div class="description">
-                        <div class="title">
-                          Mobile payment made easy
-                        </div>
-                        <p class="text">
-                          With Roburst mobile application, cashless payment is easier than ever.
-                          RoburstBridge offers an endless possibilites for Roburst Network.
-                          Send and receive Roburst Coin within the network is in just a blink of eyes.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="about">
-            <div class="content-section section-about">
-                <h1 class="section-title">
-                    About
-                </h1>
-                <div class="uikit-title-line"></div>
-                <div class="info-blocks-wrap">
-                    <div class="info-block">
-                        <div class="icon">
-                            <svg>
-                                <use xlink:href="#l-circle-blue"></use>
-                            </svg>
-                            <svg class="upper js-icon">
-                                <use xlink:href="#l-flag"></use>
-                            </svg>
-                        </div>
-                        <div class="description">
-                            <h2 class="title">
-                                how it began
-                            </h2>
-                            <p class="text">
-                                This project began in 2015, when we think of an alternative of Bitcoin with the ability
-                                of communicating between chains and improvement in speed as well as security. With the help of
-                                our advisors, we promoted our method at a meetup in California in October 2017 and received a lot of
-                                interests from the community. The Roburst Network is the final product that we, the Roburst Team could
-                                bring our value to the world.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="info-block">
-                        <div class="icon">
-                            <svg>
-                                <use xlink:href="#l-circle-blue"></use>
-                            </svg>
-                            <svg class="upper js-icon">
-                                <use xlink:href="#l-rocket"></use>
-                            </svg>
-                        </div>
-                        <div class="description">
-                            <h2 class="title">
-                                our mission
-                            </h2>
-                            <p class="text">
-                                Our mission is promoting new way of payment, still keeping the network being decentralized and secured,
-                                also bringing improvements to the network. Bring more value to people through Roburst Coin and all other services in
-                                Roburst Network.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="statistic">
+              <div class="section">
+                <div class="count spincrement">
+                  420
+                </div>Millions
+                <p class="description">ROC seeded</p>
               </div>
-              </section>
-        <section id="roadmap">
-          <div class="content-section section-about">
-              <h1 class="section-title">
-                  Roadmap
-              </h1>
-              <div class="uikit-title-line"></div>
-              <div class="info-blocks-wrap animated fadeInRightBig">
-
-              <img src="images/roadmap.png" alt="Roburst Network Roadmap" srcset="images/roadmap.png 2428w, images/roadmap-107x300.png 107w, images/roadmap-768x2158.png 768w, images/roadmap-365x1025.png 365w" sizes="(max-width: 2428px) 100vw, 2428px" width="2428" height="6821">
-            </div></div>
-          </section>
-        <section id="distribution">
-            <div class="content-section section-pricing">
-                <h1 class="section-title">
-                    Distribution
-                </h1>
-                <div class="description">
-                <div class="uikit-title-line"></div>
-                <p class="text">Roburst Network comes with a number of premined tokens, which mean we gonna sell it to the market. The token serve as utility token and
-                  can be used to withdraw cash, make payment and pay for the services in the network. The very first service that will open after the ICO ends
-                  is the Roburst Trading Bot (RTB), which works both like a lending system and a trading market.<br>Below is the distribution plan:</p>
-                  <div class="chartjs-wrapper"><iframe class="chartjs-hidden-iframe" style="display: block; overflow: hidden; border: 0px none; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;" tabindex="-1"></iframe><canvas id="chartjs-4" class="chartjs" width="770" height="385" style="display: block; width: 770px; height: 385px;"></canvas><script>
-                  new Chart(document.getElementById("chartjs-4"),{
-                  type:'doughnut',
-                  data:{
-                    "labels":["ICO","Roburst Community Program","Team and advisors","Marketing campaign","Bounty hunter"],
-                  "datasets":[{
-                    "label":"My First Dataset","data":[315000000,42000000,21000000,21000000,21000000],
-                  "backgroundColor":["rgb(255, 156, 72)","rgb(54, 162, 235)","rgb(255, 205, 86)","rgb(255, 99, 132)","rgb(255, 109, 233)"]}]}});</script></div>
-                  <p class="text">The following stages is the distribution event for ICO:</p></div>
-                <div class="pricing-blocks">
-                    <div class="pricing-block js-pricing-block">
-                        <div class="head">
-                            <h2>
-                                Pre-ICO stage
-                            </h2>
-                        </div>
-                        <div class="conditions">
-                            <p class="text">Pre-ICO sales offer investors a large amount of bonus, however, requires a number of minimum token bought by investors.</p>
-                            <p class="text"><b>Pre-ICO stage</b> will end on <b>Mar 2, 2018</b>.</p>
-                        </div>
-                        <a class="button-get ga-l-contact-us" href="mailto:investors@roburst.network?subject=Hey%20I%20wanna%20join%20the%20whitelist">
-                            Join the whitelist
-                        </a>
-                    </div>
-                    <div class="pricing-block js-pricing-block">
-                        <div class="head">
-                            <h2>
-                                ICO stages
-                            </h2>
-                        </div>
-                        <div class="conditions">
-                            <p class="text">ICO stages will be divided into 3 smaller stages, the price of ROC for each stage will vary as the demand of investors.</p>
-                            <p class="text"><b>ICO 1st stage</b> will start on <b>Mar 2, 2018</b>.</p>
-                        </div>
-                        <a class="button-not-started-yet ga-l-contact-us" href="#">
-                            Not started yet
-                        </a>
-                    </div>
-                    <div class="pricing-block js-pricing-block">
-                        <div class="head">
-                            <h2>
-                                Investor offer
-                            </h2>
-                        </div>
-                        <div class="conditions">
-                            <p class="text">We offer Roburst Coin at a reasonable price for investor who want to buy ROC in large number.</p>
-                            <p class="text"><b>Investor offer</b> will end on <b>Mar 2, 2018</b>.</p>
-                        </div>
-                        <a class="button-get ga-l-contact-us" href="mailto:investors@roburst.network?subject=Investor%20Offer">
-                            Contact us
-                        </a>
-                    </div>
+              <div class="section">
+                <div class="count spincrement">
+                  315
+                </div>Millions
+                <p class="description">ROC for ICO</p>
+              </div>
+              <div class="section">
+                <div class="count spincrement">
+                  3
                 </div>
-                <div class="compare-button js-comparison-table-button">
-                    <div class="text show ga-l-compare-plans">Compare stages</div>
-                    <div class="text hide ga-l-hide-compare-plans">Hide</div>
-                    <div class="icon">
-                        <div class="line first"></div>
-                        <div class="line second"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="content-section mobile-comparison-block js-table js-mobile-comparison-table">
-                <div class="wrapper">
-                    <div class="table js-content-table">
-                        <div class="content-table">
-                            <div class="header-wrap">
-                                <div class="header-row js-table-header">
-                                    <div class="accounts">
-                                        <div class="account active js-change-account-button" data-number=0 data-account-title="free">
-                                            Pre-ICO
-                                        </div>
-                                        <div class="account js-change-account-button" data-number=1 data-account-title="pro">
-                                            ICO
-                                        </div>
-                                        <div class="account js-change-account-button" data-number=2 data-account-title="enterprise">
-                                            Investor
-                                        </div>
-                                    </div>
-                                    <div class="line">
-                                        <div class="switch js-account-switch"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="js-swipe-container">
-                                                                    <div class="block js-table-block">
-                                        <div class="title-row">
-                                            <div class="title">
-                                                Offers
-                                            </div>
-                                        </div>
-                                        <div class="table-row-wrap js-table-row">
-    <div class="wrapper">
-        <div class="table-cell js-account-free">
-            <div class="title">
-                Price per ROC
-            </div>
-            <div class="value">
-                                                                                0.00001 BTC
-                                                                        </div>
-        </div>
-    </div>
-    <div class="wrapper">
-        <div class="table-cell js-account-pro">
-            <div class="title">
-                Price per ROC
-            </div>
-            <div class="value">
-                                                                                ≥0.00001 BTC
-                                                                        </div>
-        </div>
-    </div>
-    <div class="wrapper">
-        <div class="table-cell js-account-enterprise">
-            <div class="title">
-                Price per ROC
-            </div>
-            <div class="value">
-                                                                                ask for pricing
-                                                                        </div>
-        </div>
-    </div>
-</div>
-                                                                                    <div class="table-row-wrap js-table-row">
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-free">
-                                                        <div class="title">
-                                                            Bonus
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            up to 30%
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-pro">
-                                                        <div class="title">
-                                                            Bonus
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            no
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-enterprise">
-                                                        <div class="title">
-                                                            Bonus
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            ask for bonus
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                                                    <div class="table-row-wrap js-table-row">
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-free">
-                                                        <div class="title">
-                                                            Tradability
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-check">
-                                                                    <use xlink:href="#l-check-blue"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-pro">
-                                                        <div class="title">
-                                                            Tradability
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-check">
-                                                                    <use xlink:href="#l-check-blue"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-enterprise">
-                                                        <div class="title">
-                                                            Tradability
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-check">
-                                                                    <use xlink:href="#l-check-blue"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                                                    <div class="table-row-wrap js-table-row">
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-free">
-                                                        <div class="title">
-                                                            Referral
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-cross">
-                                                                    <use xlink:href="#l-cross"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-pro">
-                                                        <div class="title">
-                                                            Referral
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-check">
-                                                                    <use xlink:href="#l-check-blue"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-enterprise">
-                                                        <div class="title">
-                                                            Referral
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-cross">
-                                                                    <use xlink:href="#l-cross"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="table-row-wrap js-table-row">
-        <div class="wrapper">
-            <div class="table-cell js-account-free">
-                <div class="title">
-                    Withdraw
-                </div>
-                <div class="value">
-                                                                                    <svg class="icon-check">
-                            <use xlink:href="#l-check-blue"></use>
-                        </svg>
-                                                                            </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="table-cell js-account-pro">
-                <div class="title">
-                    Withdraw
-                </div>
-                <div class="value">
-                                                                                    <svg class="icon-check">
-                            <use xlink:href="#l-check-blue"></use>
-                        </svg>
-                                                                            </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="table-cell js-account-enterprise">
-                <div class="title">
-                    Withdraw
-                </div>
-                <div class="value">
-                                                                                    <svg class="icon-check">
-                            <use xlink:href="#l-check-blue"></use>
-                        </svg>
-                                                                            </div>
-            </div>
-        </div>
-    </div>
-                                                                                    <div class="table-row-wrap js-table-row">
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-free">
-                                                        <div class="title">
-                                                            Support
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-check">
-                                                                    <use xlink:href="#l-check-blue"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-pro">
-                                                        <div class="title">
-                                                            Support
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-check">
-                                                                    <use xlink:href="#l-check-blue"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-enterprise">
-                                                        <div class="title">
-                                                            Support
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-check">
-                                                                    <use xlink:href="#l-check-blue"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                                                    <div class="table-row-wrap js-table-row">
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-free">
-                                                        <div class="title">
-                                                            Priority support
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-cross">
-                                                                    <use xlink:href="#l-cross"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-pro">
-                                                        <div class="title">
-                                                            Priority support
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-cross">
-                                                                    <use xlink:href="#l-cross"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wrapper">
-                                                    <div class="table-cell js-account-enterprise">
-                                                        <div class="title">
-                                                            Priority support
-                                                        </div>
-                                                        <div class="value">
-                                                                                                                            <svg class="icon-check">
-                                                                    <use xlink:href="#l-check-blue"></use>
-                                                                </svg>
-                                                                                                                    </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                                            </div>
-                                                            </div>
-                        </div>
-                        <div class="buttons-row js-table-row">
-                            <div class="button-wrap">
-                                <a class="button-get ga-l-get-free-account-compare" href="#">
-                                    Join the whitelist
-                                </a>
-                            </div>
-                            <div class="button-wrap">
-                                <a class="button-not-started-yet ga-l-get-pro-account-compare" href="">
-                                    Not started yet
-                                </a>
-                            </div>
-                            <div class="button-wrap">
-                                <a class="button-get ga-l-ask-for-enterprise" href="mailto:investors@roburst.network?subject=Invester%20Offer">
-                                    Contact us
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hide-table-button ga-l-hide-compare-plans js-hide-table-button">
-                    <div class="icon">
-                        <div class="line first"></div>
-                        <div class="line second"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="content-section desktop-comparison-block js-table js-desktop-comparison-table">
-                <div class="wrapper">
-                    <div class="table js-content-table">
-                        <div class="content-table">
-                            <div class="header-wrap">
-                                <div class="header-row js-table-header">
-                                    <div class="header">
-                                        <div class="accounts">
-                                            <div class="account">
-                                                Pre-ICO
-                                            </div>
-                                            <div class="account">
-                                                ICO
-                                            </div>
-                                            <div class="account">
-                                                Investor
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                                                            <div class="block js-table-block">
-                                    <div class="title-row">
-                                        <div class="title">
-                                            offers
-                                        </div>
-                                    </div>
-                                                                            <div class="table-row">
-                                            <div class="title">
-                                                Price per ROC
-                                            </div>
-                                            <div class="values">
-                                                                                                    <div class="value">
-                                                                                                                    0.00001 BTC
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    ≥0.00001 BTC
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    ask for pricing
-                                                                                                            </div>
-                                                                                            </div>
-                                        </div>
-                                                                            <div class="table-row">
-                                            <div class="title">
-                                                Bonus
-                                            </div>
-                                            <div class="values">
-                                                                                                    <div class="value">
-                                                                                                                    up to 30%
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    no
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    ask for bonus
-                                                                                                            </div>
-                                                                                            </div>
-                                        </div>
-                                                                            <div class="table-row">
-                                            <div class="title">
-                                                Tradability
-                                            </div>
-                                            <div class="values">
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                            </div>
-                                        </div>
-                                                                            <div class="table-row">
-                                            <div class="title">
-                                                Referral
-                                            </div>
-                                            <div class="values">
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                            </div>
-                                        </div>
-                                                                            <div class="table-row">
-                                            <div class="title">
-                                                Withdraw
-                                            </div>
-                                            <div class="values">
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                            </div>
-                                        </div>
-                                                                            <div class="table-row">
-                                            <div class="title">
-                                                Support
-                                            </div>
-                                            <div class="values">
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                            </div>
-                                        </div>
-                                                                            <div class="table-row">
-                                            <div class="title">
-                                                Priority support
-                                            </div>
-                                            <div class="values">
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-cross">
-                                                                <use xlink:href="#l-cross"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-cross">
-                                                                <use xlink:href="#l-cross"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                                    <div class="value">
-                                                                                                                    <svg class="icon-check">
-                                                                <use xlink:href="#l-check-blue"></use>
-                                                            </svg>
-                                                                                                            </div>
-                                                                                            </div>
-                                        </div>
-                                                                    </div>
-                                                    </div>
-                        <div class="buttons">
-                            <a class="button-get ga-l-get-free-account-compare" href="">
-                                Join the whitelist
-                            </a>
-                            <a class="button-not-started-yet ga-l-get-pro-account-compare" href="">
-                                Not started yet
-                            </a>
-                            <a class="button-get ga-l-ask-for-enterprise" href="mailto:investors@roburst.network?subject=Investor%20Offer">
-                                Contact us
-                            </a>
-                        </div>
-                        <div class="hide-table-button ga-l-hide-compare-plans js-hide-table-button">
-                            <div class="text">Hide</div>
-                            <div class="icon">
-                                <div class="line first"></div>
-                                <div class="line second"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="faq">
-            <div class="content-section section-tutorials">
-                <h1 class="section-title">
-                    FAQ
-                </h1>
-                <div class="uikit-title-line"></div>
-                <div class="tutorials-blocks">
-                  <button class="accordion">When will this coin distribute?</button>
-                  <div class="panel">
-                   <p>Our plan is written in the Whitepaper, the coin distribution will happen 7 days after the ICO stage ends in the worst case.</p>
-                  </div>
-
-                  <button class="accordion">What is the technical limitation of Roburst Coin supply in the market?</button>
-                  <div class="panel">
-                   <p>Technically, there is no limit on the number of coin supply, but there will be an decrease on forgin reward which will lead to decrease in inflation rate. Read the
-                   whitepaper for more information.</p>
-                  </div>
-
-                  <button class="accordion">When will the Roburst Trading Bot roll out?</button>
-                  <div class="panel">
-                   <p>Our plan is to make it roll out in May 2018, but we will try to deploy it as soon as we can.</p>
-                  </div>
-
-                  <button class="accordion">Why don't I receive referral bonus?</button>
-                  <div class="panel">
-                   <p>In order to prevent multiple account creation to earn referral bonus, Roburst Network requires that the person you refer must deposit at least 0.00001 BTC or equivalent to the wallet.</p>
-                  </div>
-
-                  <button class="accordion">How fast is Roburst Network?</button>
-                  <div class="panel">
-                   <p>Roburst Network is as fast as any centralized network.</p>
-                  </div>
-
-                  <button class="accordion">I am a developer and I want to integrate Roburst Coin into my system, where can I find the documentation?</button>
-                  <div class="panel">
-                   <p>The integration documentation is available in our Github, check it out.</p>
-                  </div>
-
-                  <button class="accordion">I want to join the Roburst Community Campaign, how can I apply?</button>
-                  <div class="panel">
-                   <p>Send us your CV to this email: community@roburst.network.</p>
-                  </div>
-
-                  <button class="accordion">What is the difference between Roburst Network consensus algorithm and the original DPOS algorithm?</button>
-                  <div class="panel">
-                   <p>Improvements have been made to Voting Delegate round, Forging system, P2P protocol,...</p>
-                  </div>
+                <p class="description">remaining ICO round</p>
+              </div>
             </div>
           </div>
-        </section>
-        <section id="team">
-            <div class="content-section section-about">
-                <h1 class="section-title">
+          <div class="screen-block-no-shadow">
+            <img class="animated fadeInRightBig" src="images/mobile-wallet.png" alt="Roburst Network Mobile wallet">
+          </div>
+          <div class="integration-block-mobile">
+            <div class="icon"></div>
+            <div class="description">
+              <div class="title">
+                Mobile payment made easy
+              </div>
+              <p class="text">
+                With Roburst mobile application, cashless payment is easier than ever. RoburstBridge offers an endless possibilites for Roburst Network. Send and receive Roburst Coin within the network is in just a blink of eyes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="content-section section-features">
+          <h1 class="section-title">
+                    Features
+                </h1>
+          <div class="uikit-title-line"></div>
+          <ul class="features">
+            <li class="feature js-feature-block">
+              <div class="icon">
+                <svg class="diamond-icon">
+                                    <use xlink:href="#l-planet"></use>
+                                </svg>
+              </div>
+              <div class="description">
+                <h2 class="title">
+                                    World-wide payment
+                                </h2>
+                <p class="text">
+                  Due to the ability of communicating among chains, Roburst Coin is capable of payment anywhere, anywhen.
+                </p>
+              </div>
+            </li>
+            <li class="feature js-feature-block">
+              <div class="icon">
+                <svg class="diamond-icon">
+                                    <use xlink:href="#l-copy"></use>
+                                </svg>
+              </div>
+              <div class="description">
+                <h2 class="title">
+                                    Multi-signature
+                                </h2>
+                <p class="text">
+                  Multi-signature helps organizations or individuals to make a wallet that require an amount of private key to perform the transaction.
+                </p>
+              </div>
+            </li>
+            <li class="feature js-feature-block">
+              <div class="icon">
+                <svg class="diamond-icon">
+                                    <use xlink:href="#l-laptop-phone"></use>
+                                </svg>
+              </div>
+              <div class="description">
+                <h2 class="title">
+                                    Cross-platform
+                                </h2>
+                <p class="text">
+                  Use Roburst Network anywhere. Supported platform: Web, macOS, Windows, Android, iOS, Linux.
+                </p>
+              </div>
+            </li>
+            <li class="feature js-feature-block">
+              <div class="icon">
+                <svg class="diamond-icon">
+                                    <use xlink:href="#l-circles"></use>
+                                </svg>
+              </div>
+              <div class="description">
+                <h2 class="title">
+                                    Decentralized
+                                </h2>
+                <p class="text">
+                  P2P connection keeps the network from being centralized, also with our consensus algorithm, there is no major server at all.
+                </p>
+              </div>
+            </li>
+            <li class="feature js-feature-block">
+              <div class="icon">
+                <svg class="diamond-icon">
+                                    <use xlink:href="#l-squares"></use>
+                                </svg>
+              </div>
+              <div class="description">
+                <h2 class="title">
+                                    Cross-chain
+                                </h2>
+                <p class="text">
+                  RoburstBridge serves as a medium which help communications between chains easier than ever.
+                </p>
+              </div>
+            </li>
+            <li class="feature js-feature-block">
+              <div class="icon">
+                <svg class="diamond-icon">
+                                    <use xlink:href="#l-check"></use>
+                                </svg>
+              </div>
+              <div class="description">
+                <h2 class="title">
+                                    Secured
+                                </h2>
+                <p class="text">
+                  Roburst Network offers many security options, from mobile to desktop applications.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="integration-block">
+            <div class="icon"></div>
+            <div class="description">
+              <div class="title">
+                Mobile payment made easy
+              </div>
+              <p class="text">
+                With Roburst mobile application, cashless payment is easier than ever. RoburstBridge offers an endless possibilites for Roburst Network. Send and receive Roburst Coin within the network is in just a blink of eyes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="content-section section-about">
+          <h1 class="section-title">
+                    About
+                </h1>
+          <div class="uikit-title-line"></div>
+          <div class="info-blocks-wrap">
+            <div class="info-block">
+              <div class="icon">
+                <svg>
+                                <use xlink:href="#l-circle-blue"></use>
+                            </svg>
+                <svg class="upper js-icon">
+                                <use xlink:href="#l-flag"></use>
+                            </svg>
+              </div>
+              <div class="description">
+                <h2 class="title">
+                                how it began
+                            </h2>
+                <p class="text">
+                  This project began in 2015, when we think of an alternative of Bitcoin with the ability of communicating between chains and improvement in speed as well as security. With the help of our advisors, we promoted our method at a meetup in California in October
+                  2017 and received a lot of interests from the community. The Roburst Network is the final product that we, the Roburst Team could bring our value to the world.
+                </p>
+              </div>
+            </div>
+            <div class="info-block">
+              <div class="icon">
+                <svg>
+                                <use xlink:href="#l-circle-blue"></use>
+                            </svg>
+                <svg class="upper js-icon">
+                                <use xlink:href="#l-rocket"></use>
+                            </svg>
+              </div>
+              <div class="description">
+                <h2 class="title">
+                                our mission
+                            </h2>
+                <p class="text">
+                  Our mission is promoting new way of payment, still keeping the network being decentralized and secured, also bringing improvements to the network. Bring more value to people through Roburst Coin and all other services in Roburst Network.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <!-- Set up your HTML -->
+          <div class="owl-carousel owl-theme">
+            <div class="item-video">
+              <iframe width="420" height="300" src="https://www.youtube.com/embed/IlCsxxYxD00">
+</iframe>
+            </div>
+            <div class="item-video">
+              <iframe width="420" height="300" src="https://www.youtube.com/embed/bLbQqa8iGwI">
+</iframe>
+            </div>
+
+          </div>
+          <script>
+            $(document).ready(function() {
+
+              $(".owl-carousel").owlCarousel({
+                items: 1,
+                autoPlay: false,
+                stopOnHover: true,
+                center: false,
+                navigation: true,
+                pagination: false,
+                autoHeight: true,
+                goToFirstSpeed: 1300,
+                singleItem: false,
+                responsive: true,
+                responsiveRefreshRate: 200,
+                responsiveBaseWidth: window,
+                videoWidth: false, // Default false; Type: Boolean/Number
+                videoHeight: false, // Default false; Type: Boolean/Number
+                video: true,
+                onTranslate: function() {
+                  $('.owl-item').find('video').each(function() {
+                    this.pause();
+                  });
+                }
+              });
+            })
+          </script>
+        </div>
+      </section>
+      <section id="roadmap">
+        <div class="content-section section-about">
+          <h1 class="section-title">
+                  Roadmap
+              </h1>
+          <div class="uikit-title-line"></div>
+          <div class="cd-horizontal-timeline">
+            <div class="timeline">
+              <div class="events-wrapper">
+                <div class="events">
+                  <ol>
+                    <li><a href="#0" data-date="24/02/2018" class="selected">Feb 24</a></li>
+                    <li><a href="#0" data-date="25/03/2018">Mar 25</a></li>
+                    <li><a href="#0" data-date="24/04/2018">Apr 24</a></li>
+                    <li><a href="#0" data-date="01/05/2018">May 01</a></li>
+                    <li><a href="#0" data-date="05/05/2018">May 05</a></li>
+                    <li><a href="#0" data-date="15/06/2018">Jun 15</a></li>
+                    <li><a href="#0" data-date="20/06/2018">Jun 20</a></li>
+                    <li><a href="#0" data-date="04/07/2018">Jul 04</a></li>
+                    <li><a href="#0" data-date="05/09/2018">Sep 05</a></li>
+                    <li><a href="#0" data-date="01/10/2018">Oct 01</a></li>
+                    <li><a href="#0" data-date="01/11/2018">Nov 01</a></li>
+                    <li><a href="#0" data-date="12/12/2018">Dec 12</a></li>
+                  </ol>
+
+                  <span class="filling-line" aria-hidden="true"></span>
+                </div>
+                <!-- .events -->
+              </div>
+              <!-- .events-wrapper -->
+
+              <ul class="cd-timeline-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+              </ul>
+              <!-- .cd-timeline-navigation -->
+            </div>
+            <!-- .timeline -->
+
+            <div class="events-content">
+              <ol>
+                <li class="selected" data-date="24/02/2018">
+                  <h2>Pre-sale stage starts</h2>
+                  <em>February 24th, 2018</em>
+                  <p>
+                    Pre-sale stage is open. To join Pre-sale, investors need to complete the whitelist registration provided by Roburst Network.
+                  </p>
+                </li>
+
+                <li data-date="25/03/2018">
+                  <h2>Pre-sale ends, ICO stages start</h2>
+                  <em>March 25th, 2018</em>
+                  <p>
+                    Summary of the Pre-sale event, then move onto next stage: the ICO stage.
+                  </p>
+                </li>
+
+                <li data-date="24/04/2018">
+                  <h2>ICO stages end</h2>
+                  <em>April 24th, 2018</em>
+                  <p>
+                    ICO stages end. Summarize all stages with sales and unsold coins.
+                  </p>
+                </li>
+
+                <li data-date="01/05/2018">
+                  <h2>Coin distribution date</h2>
+                  <em>May 1st, 2018</em>
+                  <p>
+                    Main net launches as well as the coin will be distributed to investors' wallet.
+                  </p>
+                </li>
+
+                <li data-date="05/05/2018">
+                  <h2>Listed on Trading sites</h2>
+                  <em>May 5th, 2018</em>
+                  <p>
+                    Roburst Coin now lives on multiple trading sites (at least 5 sites including internal trading site: Roburst Trading Bot).
+                  </p>
+                </li>
+
+                <li data-date="15/06/2018">
+                  <h2>RoburstBridge 2.0 deployment</h2>
+                  <em>June 15th, 2018</em>
+                  <p>
+                    First deployment of RoburstBridge 2.0, with the allowance of sidechain creating, transferring crosschain, improvments on security, speed, stability and more.
+                  </p>
+                </li>
+
+                <li data-date="20/06/2018">
+                  <h2>First ATM in LA</h2>
+                  <em>June 20th, 2018</em>
+                  <p>
+                    With the help of RoburstBridge 2.0, the first Roburst Coin ATM will be available in Los Angeles, CA.
+                  </p>
+                </li>
+
+                <li data-date="04/07/2018">
+                  <h2>Development of RoburstBridge 3.0</h2>
+                  <em>July 4th, 2018</em>
+                  <p>
+                    Starting the process of development the next version of RoburstBridge 3.0, including implement the Lightning Network.
+                  </p>
+                </li>
+
+                <li data-date="05/09/2018">
+                  <h2>Roburst Coin ATM worldwide deployment</h2>
+                  <em>September 5th, 2018</em>
+                  <p>
+                    We aim to deploy over 300 ATMs worldwide, first in major cities around the world.
+                  </p>
+                </li>
+
+                <li data-date="01/10/2018">
+                  <h2>Allowance of public sidechain creating</h2>
+                  <em>October 1st, 2018</em>
+                  <p>
+                    Everyone can now create their own cryptocurrency based on Roburst Network.
+                  </p>
+                </li>
+
+                <li data-date="01/11/2018">
+                  <h2>Roburst E-commerce website launches</h2>
+                  <em>November 11th, 2018</em>
+                  <p>
+                    Roburst Network's E-commerce website that only accepts Roburst Coin.
+                  </p>
+                </li>
+
+                <li data-date="12/12/2018">
+                  <h2>Worldwide Roburst Network event</h2>
+                  <em>December 12th, 2018</em>
+                  <p>
+                    First world-wide event held by Roburst Network that summarizes a year in work with Roburst Network.
+                  </p>
+                </li>
+              </ol>
+            </div>
+            <!-- .events-content -->
+          </div>
+        </div>
+      </section>
+      <section id="distribution">
+        <div class="content-section section-pricing">
+          <h1 class="section-title">
+                    Distribution
+                </h1>
+          <div class="description">
+            <div class="uikit-title-line"></div>
+            <p class="text">Roburst Network comes with a number of premined tokens, which mean we gonna sell it to the market. The token serve as utility token and can be used to withdraw cash, make payment and pay for the services in the network. The very first service
+              that will open after the ICO ends is the Roburst Trading Bot (RTB), which works both like a lending system and a trading market.<br>Below is the distribution plan:</p>
+            <div class="chartjs-wrapper"><iframe class="chartjs-hidden-iframe" style="display: block; overflow: hidden; border: 0px none; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"
+                tabindex="-1"></iframe><canvas id="chartjs-4" class="chartjs" width="770" height="385" style="display: block; width: 770px; height: 385px;"></canvas>
+              <script>
+                new Chart(document.getElementById("chartjs-4"), {
+                  type: 'doughnut',
+                  data: {
+                    "labels": ["ICO", "Roburst Community Program", "Team and advisors", "Marketing campaign", "Bounty hunter"],
+                    "datasets": [{
+                      "label": "My First Dataset",
+                      "data": [315000000, 42000000, 21000000, 21000000, 21000000],
+                      "backgroundColor": ["rgb(255, 156, 72)", "rgb(54, 162, 235)", "rgb(255, 205, 86)", "rgb(255, 99, 132)", "rgb(255, 109, 233)"]
+                    }]
+                  }
+                });
+              </script>
+            </div>
+            <p class="text">The following stages is the distribution event for ICO:</p>
+          </div>
+          <div class="pricing-blocks">
+            <div class="pricing-block js-pricing-block">
+              <div class="head">
+                <h2>
+                                Pre-ICO stage
+                            </h2>
+              </div>
+              <div class="conditions">
+                <p class="text">Pre-ICO sales offer investors a large amount of bonus, however, requires a number of minimum token bought by investors.</p>
+                <p class="text"><b>Pre-ICO stage</b> will end on <b>Mar 25, 2018</b>.</p>
+              </div>
+              <a class="button-get ga-l-contact-us" href="https://roburst.co">
+                            Join the whitelist
+                        </a>
+            </div>
+            <div class="pricing-block js-pricing-block">
+              <div class="head">
+                <h2>
+                                ICO stages
+                            </h2>
+              </div>
+              <div class="conditions">
+                <p class="text">ICO stages will be divided into 3 smaller stages, the price of ROC for each stage will vary as the demand of investors.</p>
+                <p class="text"><b>ICO 1st stage</b> will start on <b>Mar 25, 2018</b>.</p>
+              </div>
+              <a class="button-not-started-yet ga-l-contact-us" href="#">
+                            Not started yet
+                        </a>
+            </div>
+            <div class="pricing-block js-pricing-block">
+              <div class="head">
+                <h2>
+                                Investor offer
+                            </h2>
+              </div>
+              <div class="conditions">
+                <p class="text">We offer Roburst Coin at a reasonable price for investor who want to buy ROC in large number.</p>
+                <p class="text"><b>Investor offer</b> will end on <b>Apr 24, 2018</b>.</p>
+              </div>
+              <a class="button-get ga-l-contact-us" href="mailto:investors@roburst.network?subject=Investor%20Offer">
+                            Contact us
+                        </a>
+            </div>
+          </div>
+          <div class="compare-button js-comparison-table-button">
+            <div class="text show ga-l-compare-plans">Compare stages</div>
+            <div class="text hide ga-l-hide-compare-plans">Hide</div>
+            <div class="icon">
+              <div class="line first"></div>
+              <div class="line second"></div>
+            </div>
+          </div>
+        </div>
+        <div class="content-section mobile-comparison-block js-table js-mobile-comparison-table">
+          <div class="wrapper">
+            <div class="table js-content-table">
+              <div class="content-table">
+                <div class="header-wrap">
+                  <div class="header-row js-table-header">
+                    <div class="accounts">
+                      <div class="account active js-change-account-button" data-number=0 data-account-title="free">
+                        Pre-ICO
+                      </div>
+                      <div class="account js-change-account-button" data-number=1 data-account-title="pro">
+                        ICO
+                      </div>
+                      <div class="account js-change-account-button" data-number=2 data-account-title="enterprise">
+                        Investor
+                      </div>
+                    </div>
+                    <div class="line">
+                      <div class="switch js-account-switch"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="js-swipe-container">
+                  <div class="block js-table-block">
+                    <div class="title-row">
+                      <div class="title">
+                        Offers
+                      </div>
+                    </div>
+                    <div class="table-row-wrap js-table-row">
+                      <div class="wrapper">
+                        <div class="table-cell js-account-free">
+                          <div class="title">
+                            Price per ROC
+                          </div>
+                          <div class="value">
+                            0.00001 BTC
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-pro">
+                          <div class="title">
+                            Price per ROC
+                          </div>
+                          <div class="value">
+                            ≥0.00001 BTC
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-enterprise">
+                          <div class="title">
+                            Price per ROC
+                          </div>
+                          <div class="value">
+                            ask for pricing
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-row-wrap js-table-row">
+                      <div class="wrapper">
+                        <div class="table-cell js-account-free">
+                          <div class="title">
+                            Bonus
+                          </div>
+                          <div class="value">
+                            up to 50%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-pro">
+                          <div class="title">
+                            Bonus
+                          </div>
+                          <div class="value">
+                            no
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-enterprise">
+                          <div class="title">
+                            Bonus
+                          </div>
+                          <div class="value">
+                            ask for bonus
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-row-wrap js-table-row">
+                      <div class="wrapper">
+                        <div class="table-cell js-account-free">
+                          <div class="title">
+                            Tradability
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                                                                    <use xlink:href="#l-check-blue"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-pro">
+                          <div class="title">
+                            Tradability
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                                                                    <use xlink:href="#l-check-blue"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-enterprise">
+                          <div class="title">
+                            Tradability
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                                                                    <use xlink:href="#l-check-blue"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-row-wrap js-table-row">
+                      <div class="wrapper">
+                        <div class="table-cell js-account-free">
+                          <div class="title">
+                            Referral
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                                                                    <use xlink:href="#l-check-blue"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-pro">
+                          <div class="title">
+                            Referral
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                                                                    <use xlink:href="#l-check-blue"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-enterprise">
+                          <div class="title">
+                            Referral
+                          </div>
+                          <div class="value">
+                            <svg class="icon-cross">
+                                                                    <use xlink:href="#l-cross"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-row-wrap js-table-row">
+                      <div class="wrapper">
+                        <div class="table-cell js-account-free">
+                          <div class="title">
+                            Withdraw
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                            <use xlink:href="#l-check-blue"></use>
+                        </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-pro">
+                          <div class="title">
+                            Withdraw
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                            <use xlink:href="#l-check-blue"></use>
+                        </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-enterprise">
+                          <div class="title">
+                            Withdraw
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                            <use xlink:href="#l-check-blue"></use>
+                        </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-row-wrap js-table-row">
+                      <div class="wrapper">
+                        <div class="table-cell js-account-free">
+                          <div class="title">
+                            Support
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                                                                    <use xlink:href="#l-check-blue"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-pro">
+                          <div class="title">
+                            Support
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                                                                    <use xlink:href="#l-check-blue"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-enterprise">
+                          <div class="title">
+                            Support
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                                                                    <use xlink:href="#l-check-blue"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-row-wrap js-table-row">
+                      <div class="wrapper">
+                        <div class="table-cell js-account-free">
+                          <div class="title">
+                            Priority support
+                          </div>
+                          <div class="value">
+                            <svg class="icon-cross">
+                                                                    <use xlink:href="#l-cross"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-pro">
+                          <div class="title">
+                            Priority support
+                          </div>
+                          <div class="value">
+                            <svg class="icon-cross">
+                                                                    <use xlink:href="#l-cross"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="table-cell js-account-enterprise">
+                          <div class="title">
+                            Priority support
+                          </div>
+                          <div class="value">
+                            <svg class="icon-check">
+                                                                    <use xlink:href="#l-check-blue"></use>
+                                                                </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="buttons-row js-table-row">
+                <div class="button-wrap">
+                  <a class="button-get ga-l-get-free-account-compare" href="#">
+                                    Join the whitelist
+                                </a>
+                </div>
+                <div class="button-wrap">
+                  <a class="button-not-started-yet ga-l-get-pro-account-compare" href="">
+                                    Not started yet
+                                </a>
+                </div>
+                <div class="button-wrap">
+                  <a class="button-get ga-l-ask-for-enterprise" href="mailto:investors@roburst.network?subject=Invester%20Offer">
+                                    Contact us
+                                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hide-table-button ga-l-hide-compare-plans js-hide-table-button">
+            <div class="icon">
+              <div class="line first"></div>
+              <div class="line second"></div>
+            </div>
+          </div>
+        </div>
+        <div class="content-section desktop-comparison-block js-table js-desktop-comparison-table">
+          <div class="wrapper">
+            <div class="table js-content-table">
+              <div class="content-table">
+                <div class="header-wrap">
+                  <div class="header-row js-table-header">
+                    <div class="header">
+                      <div class="accounts">
+                        <div class="account">
+                          Pre-ICO
+                        </div>
+                        <div class="account">
+                          ICO
+                        </div>
+                        <div class="account">
+                          Investor
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block js-table-block">
+                  <div class="title-row">
+                    <div class="title">
+                      offers
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="title">
+                      Price per ROC
+                    </div>
+                    <div class="values">
+                      <div class="value">
+                        0.00001 BTC
+                      </div>
+                      <div class="value">
+                        ≥0.00001 BTC
+                      </div>
+                      <div class="value">
+                        ask for pricing
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="title">
+                      Bonus
+                    </div>
+                    <div class="values">
+                      <div class="value">
+                        up to 50%
+                      </div>
+                      <div class="value">
+                        no
+                      </div>
+                      <div class="value">
+                        ask for bonus
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="title">
+                      Tradability
+                    </div>
+                    <div class="values">
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="title">
+                      Referral
+                    </div>
+                    <div class="values">
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-cross">
+                                                                <use xlink:href="#l-cross"></use>
+                                                            </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="title">
+                      Withdraw
+                    </div>
+                    <div class="values">
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="title">
+                      Support
+                    </div>
+                    <div class="values">
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table-row">
+                    <div class="title">
+                      Priority support
+                    </div>
+                    <div class="values">
+                      <div class="value">
+                        <svg class="icon-cross">
+                                                                <use xlink:href="#l-cross"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-cross">
+                                                                <use xlink:href="#l-cross"></use>
+                                                            </svg>
+                      </div>
+                      <div class="value">
+                        <svg class="icon-check">
+                                                                <use xlink:href="#l-check-blue"></use>
+                                                            </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="buttons">
+                <a class="button-get ga-l-get-free-account-compare" href="">
+                                Join the whitelist
+                            </a>
+                <a class="button-not-started-yet ga-l-get-pro-account-compare" href="">
+                                Not started yet
+                            </a>
+                <a class="button-get ga-l-ask-for-enterprise" href="mailto:investors@roburst.network?subject=Investor%20Offer">
+                                Contact us
+                            </a>
+              </div>
+              <div class="hide-table-button ga-l-hide-compare-plans js-hide-table-button">
+                <div class="text">Hide</div>
+                <div class="icon">
+                  <div class="line first"></div>
+                  <div class="line second"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq">
+        <div class="content-section section-tutorials">
+          <h1 class="section-title">
+                    FAQ
+                </h1>
+          <div class="uikit-title-line"></div>
+          <div class="tutorials-blocks">
+            <button class="accordion">When will this coin distribute?</button>
+            <div class="panel">
+              <p>Our plan is written in the Whitepaper, the coin distribution will happen 7 days after the ICO stage ends in the worst case.</p>
+            </div>
+
+            <button class="accordion">What is the technical limitation of Roburst Coin supply in the market?</button>
+            <div class="panel">
+              <p>Technically, there is no limit on the number of coin supply, but there will be an decrease on forgin reward which will lead to decrease in inflation rate. Read the whitepaper for more information.</p>
+            </div>
+
+            <button class="accordion">When will the Roburst Trading Bot roll out?</button>
+            <div class="panel">
+              <p>Our plan is to make it roll out in May 2018, but we will try to deploy it as soon as we can.</p>
+            </div>
+
+            <button class="accordion">Why don't I receive referral bonus?</button>
+            <div class="panel">
+              <p>In order to prevent multiple account creation to earn referral bonus, Roburst Network requires that the person you refer must deposit at least 0.00001 BTC or equivalent to the wallet.</p>
+            </div>
+
+            <button class="accordion">How fast is Roburst Network?</button>
+            <div class="panel">
+              <p>Roburst Network is as fast as any centralized network.</p>
+            </div>
+
+            <button class="accordion">I am a developer and I want to integrate Roburst Coin into my system, where can I find the documentation?</button>
+            <div class="panel">
+              <p>The integration documentation is available in our Github, check it out.</p>
+            </div>
+
+            <button class="accordion">I want to join the Roburst Community Campaign, how can I apply?</button>
+            <div class="panel">
+              <p>Send us your CV to this email: community@roburst.network.</p>
+            </div>
+
+            <button class="accordion">What is the difference between Roburst Network consensus algorithm and the original DPOS algorithm?</button>
+            <div class="panel">
+              <p>Improvements have been made to Voting Delegate round, Forging system, P2P protocol,...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team">
+        <div class="content-section section-about">
+          <h1 class="section-title">
                     Team
                 </h1>
-                <div class="uikit-title-line"></div>
-                <ul class="team-block">
-                                            <li class="person">
-                            <div class="photo">
-                                <img src="images/team/samantha.png">
-                            </div>
-                            <div class="data">
-                                <div class="name">
-                                    Samantha Wilson
-                                </div>
-                                <div class="role">
-                                    Co-founder / CEO
-                                </div>
-
-                            </div>
-                        </li>
-                                            <li class="person">
-                            <div class="photo">
-                                <img src="images/team/daniel.png">
-                            </div>
-                            <div class="data">
-                                <div class="name">
-                                    Daniel Lee
-                                </div>
-                                <div class="role">
-                                    Co-founder / CTO
-                                </div>
-                            </div>
-                        </li>
-                                            <li class="person">
-                            <div class="photo">
-                                <img src="images/team/ronald.png">
-                            </div>
-                            <div class="data">
-                                <div class="name">
-                                    Ronald Raji
-                                </div>
-                                <div class="role">
-                                    Finance Director
-                                </div>
-                            </div>
-                        </li>
-                                            <li class="person">
-                            <div class="photo">
-                                <img src="images/team/justin.png">
-                                <div class="middle">
-                                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.facebook.com/RoburstNetwork">
+          <div class="uikit-title-line"></div>
+          <ul class="team-block">
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/samantha.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/samanthawilson-1985/">
                                                       <svg class="linkedin-icon">
                                                           <use xlink:href="#l-linkedin"></use>
                                                       </svg>
                                                   </a>
-                                </div>
-                            </div>
-                            <div class="data">
-                                <div class="name">
-                                    Justin Wilkerson
-                                </div>
-                                <div class="role">
-                                    COO
-                                </div>
-                            </div>
-                        </li>
-                                            <li class="person">
-                            <div class="photo">
-                                <img src="images/team/david.png">
-                            </div>
-                            <div class="data">
-                                <div class="name">
-                                    David Jones
-                                </div>
-                                <div class="role">
-                                    Blockchain advisor
-                                </div>
-                            </div>
-                        </li>
-                                            <li class="person">
-                            <div class="photo">
-                                <img src="images/team/michael.png">
-                            </div>
-                            <div class="data">
-                                <div class="name">
-                                    Michael Suppo
-                                </div>
-                                <div class="role">
-                                    Blockchain advisor
-                                </div>
-                            </div>
-                        </li>
-                                            <li class="person">
-                            <div class="photo">
-                                <img src="images/team/marshall.png">
-                            </div>
-                            <div class="data">
-                                <div class="name">
-                                    Marshall Hand
-                                </div>
-                                <div class="role">
-                                    Cryptocurrency advisor
-                                </div>
-                            </div>
-                        </li>
-                                            <li class="person">
-                            <div class="photo">
-                                <img src="images/team/samy.png">
-                            </div>
-                            <div class="data">
-                                <div class="name">
-                                    Samy Mkacher
-                                </div>
-                                <div class="role">
-                                    Blockchain advisor
-                                </div>
-                            </div>
-                        </li>
-                                            <div class="blank">
-                        </div>
-                                                <li class="person">
-                                <div class="photo">
-                                    <img src="images/team/arvind.png">
-                                </div>
-                                <div class="data">
-                                    <div class="name">
-                                        Arvind Narayanan
-                                    </div>
-                                    <div class="role">
-                                        Blockchain advisor
-                                    </div>
-                                </div>
-                            </li>
-                                  <li class="person">
-                              <div class="photo">
-                              <img src="images/team/marc.png">
-                              </div>
-                              <div class="data">
-                              <div class="name">
-                              Marc Badia
-                              </div>
-                              <div class="role">
-                              Finance advisor
-                              </div>
-                              </div>
-                              </li>
-                                    </ul>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Samantha Wilson
+                </div>
+                <div class="role">
+                  Co-founder / CEO
+                </div>
+
+              </div>
+            </li>
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/daniel.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/daniellee-1604/">
+                                                      <svg class="linkedin-icon">
+                                                          <use xlink:href="#l-linkedin"></use>
+                                                      </svg>
+                                                  </a>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Daniel Lee
+                </div>
+                <div class="role">
+                  Co-founder / CTO
+                </div>
+              </div>
+            </li>
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/ronald.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/ronald-raji-0505/">
+                                                      <svg class="linkedin-icon">
+                                                          <use xlink:href="#l-linkedin"></use>
+                                                      </svg>
+                                                  </a>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Ronald Raji
+                </div>
+                <div class="role">
+                  Finance Director
+                </div>
+              </div>
+            </li>
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/justin.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/justin-wilkerson2012/">
+                                                      <svg class="linkedin-icon">
+                                                          <use xlink:href="#l-linkedin"></use>
+                                                      </svg>
+                                                  </a>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Justin Wilkerson
+                </div>
+                <div class="role">
+                  COO
+                </div>
+              </div>
+            </li>
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/davis.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/pdavisjones/">
+                                                    <svg class="linkedin-icon">
+                                                        <use xlink:href="#l-linkedin"></use>
+                                                    </svg>
+                                                </a>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Davis Jones
+                </div>
+                <div class="role">
+                  Blockchain advisor
+                </div>
+              </div>
+            </li>
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/michael.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/michaelsuppo/">
+                                                    <svg class="linkedin-icon">
+                                                        <use xlink:href="#l-linkedin"></use>
+                                                    </svg>
+                                                </a>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Michael Suppo
+                </div>
+                <div class="role">
+                  Blockchain advisor
+                </div>
+              </div>
+            </li>
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/marshall.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/marshall-hand-95b5b2100">
+                                                    <svg class="linkedin-icon">
+                                                        <use xlink:href="#l-linkedin"></use>
+                                                    </svg>
+                                                </a>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Marshall Hand
+                </div>
+                <div class="role">
+                  Cryptocurrency advisor
+                </div>
+              </div>
+            </li>
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/samy.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://twitter.com/samymkacher">
+                                                    <svg class="linkedin-icon">
+                                                        <use xlink:href="#l-twitter"></use>
+                                                    </svg>
+                                                </a>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Samy Mkacher
+                </div>
+                <div class="role">
+                  Blockchain advisor
+                </div>
+              </div>
+            </li>
+            <div class="blank">
             </div>
-        </section>
-        <section id="press">
-            <div class="content-section section-press">
-                <h1 class="section-title">
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/arvind.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://twitter.com/random_walker">
+                                                      <svg class="linkedin-icon">
+                                                          <use xlink:href="#l-twitter"></use>
+                                                      </svg>
+                                                  </a>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Arvind Narayanan
+                </div>
+                <div class="role">
+                  Blockchain advisor
+                </div>
+              </div>
+            </li>
+            <li class="person">
+              <div class="photo">
+                <img src="images/team/marc.png">
+                <div class="middle">
+                  <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="http://www.iese.edu/en/faculty-research/professors/faculty-directory/marc-badia/">
+                                                      <svg class="linkedin-icon"><use xlink:href="#icon-home3"></use></svg>
+                                                  </a>
+                </div>
+              </div>
+              <div class="data">
+                <div class="name">
+                  Marc Badia
+                </div>
+                <div class="role">
+                  Finance advisor
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="press">
+        <div class="content-section section-press">
+          <h1 class="section-title">
                     Press
                 </h1>
-                <div class="uikit-title-line"></div>
-                <div class="press-blocks-wrap">
-                    <div class="press-block">
-                        <div class="icon">
-                            <svg>
+          <div class="uikit-title-line"></div>
+          <div class="press-blocks-wrap">
+            <div class="press-block">
+              <div class="icon">
+                <svg>
                                 <use xlink:href="#l-circle-blue"></use>
                             </svg>
-                            <svg class="upper js-icon">
+                <svg class="upper js-icon">
                                 <use xlink:href="#l-dialog"></use>
                             </svg>
-                        </div>
-                        <div class="info-wrap">
-                            <h2 class="title">
+              </div>
+              <div class="info-wrap">
+                <h2 class="title">
                                 Contact
                             </h2>
-                            <div class="info-row">
-                                <div class="text">
-                                    Press
-                                </div>
-                                <a href="mailto:press@roburst.network" class="link">
+                <div class="info-row">
+                  <div class="text">
+                    Press
+                  </div>
+                  <a href="mailto:press@roburst.network" class="link">
                                     press@roburst.network
                                 </a>
-                            </div>
-                            <div class="info-row">
-                                <div class="text">
-                                    Investors
-                                </div>
-                                <a href="mailto:investors@roburst.network" class="link">
+                </div>
+                <div class="info-row">
+                  <div class="text">
+                    Investors
+                  </div>
+                  <a href="mailto:investors@roburst.network" class="link">
                                     investors@roburst.network
                                 </a>
-                            </div>
-                            <div class="info-row">
-                                <div class="text">
-                                    Support
-                                </div>
-                                <a href="mailto:support@roburst.network" class="link">
+                </div>
+                <div class="info-row">
+                  <div class="text">
+                    Support
+                  </div>
+                  <a href="mailto:support@roburst.network" class="link">
                                     support@roburst.network
                                 </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="press-block">
-                        <div class="icon">
-                            <svg>
+                </div>
+              </div>
+            </div>
+            <div class="press-block">
+              <div class="icon">
+                <svg>
                                 <use xlink:href="#l-circle-blue"></use>
                             </svg>
-                            <svg class="upper js-icon">
+                <svg class="upper js-icon">
                                 <use xlink:href="#l-down-white"></use>
                             </svg>
-                        </div>
-                        <div class="info-wrap">
-                            <h2 class="title">
+              </div>
+              <div class="info-wrap">
+                <h2 class="title">
                                 Press release
                             </h2>
-                            <div class="info-row">
-                                <div class="text">
-                                    Branding (v1.0)
-                                </div>
-                                <a href="/downloads/branding.zip" class="link ga-l-branding">
+                <div class="info-row">
+                  <div class="text">
+                    Branding (v1.0)
+                  </div>
+                  <a href="/downloads/branding.zip" class="link ga-l-branding">
                                     download
                                 </a>
-                            </div>
-                            <div class="info-row">
-                                <div class="text">
-                                    Whitepaper (v1.0)
-                                </div>
-                                <a href="/downloads/whitepaper.pdf" class="link ga-l-product-screens">
-                                    download
-                                </a>
-                            </div>
-                            <div class="info-row">
-                                <div class="text">
-                                    Lightpaper (v1.0)
-                                </div>
-                                <a target="_blank" href="/downloads/lightpaper.pdf" class="link ga-l-press-release">
-                                    download
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                <div class="info-row">
+                  <div class="text">
+                    Whitepaper (v1.0)
+                  </div>
+                  <a href="/downloads/whitepaper.pdf" class="link ga-l-product-screens">
+                                    download
+                                </a>
+                </div>
+                <div class="info-row">
+                  <div class="text">
+                    Lightpaper (v1.0)
+                  </div>
+                  <a target="_blank" href="/downloads/lightpaper.pdf" class="link ga-l-press-release">
+                                    download
+                                </a>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </div>
-</div>
-<footer class="footer">
+  </div>
+  <footer class="footer">
     <div class="wrap">
-        <div class="footer-row first">
-            <div class="items">
-                <a class="item active ga-l-support-landing" href="https://support.roburst.network" target="_blank">
+      <div class="footer-row first">
+        <div class="items">
+          <a class="item active ga-l-support-landing" href="https://support.roburst.network" target="_blank">
                     Support
                 </a>
-                <a class="item active ga-l-release-notes-landing" href="https://roburst.co" target="_blank">
+          <a class="item active ga-l-release-notes-landing" href="https://roburst.co" target="_blank">
                     Roburst Coin
                 </a>
-                <a class="item active ga-l-blog-landing" href="https://medium.com/@RoburstNetwork" target="_blank">
+          <a class="item active ga-l-blog-landing" href="https://medium.com/@RoburstNetwork" target="_blank">
                     Blog
                 </a>
-            </div>
-            <div class="social-links">
-                <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.facebook.com/RoburstNetwork">
+        </div>
+        <div class="social-links">
+          <a class="social-link ga-l-facebook-landing" target="_blank" rel="nofollow" href="https://www.facebook.com/RoburstNetwork">
                     <svg class="facebook-icon">
                         <use xlink:href="#l-facebook"></use>
                     </svg>
                 </a>
-                <a class="social-link ga-l-twitter-landing" target="_blank" rel="nofollow" href="https://twitter.com/RoburstNetwork">
+          <a class="social-link ga-l-twitter-landing" target="_blank" rel="nofollow" href="https://twitter.com/RoburstNetwork">
                     <svg class="twitter-icon">
                         <use xlink:href="#l-twitter"></use>
                     </svg>
                 </a>
-                <a class="social-link ga-l-medium-landing" target="_blank" rel="nofollow" href="https://medium.com/@RoburstNetwork">
+          <a class="social-link ga-l-medium-landing" target="_blank" rel="nofollow" href="https://medium.com/@RoburstNetwork">
                     <svg class="medium-icon">
                         <use xlink:href="#l-medium"></use>
                     </svg>
                 </a>
-            </div>
         </div>
-        <div class="footer-row">
-            <div class="items">
-                                                            <a class="item active ga-l-terms-landing" href="https://roburst.co/terms-of-service">
+      </div>
+      <div class="footer-row">
+        <div class="items">
+          <a class="item active ga-l-terms-landing" href="https://roburst.co/terms-of-service">
                             Terms of Service
                         </a>
-                                                                                <a class="item active ga-l-privacy-landing" href="https://roburst.co/privacy-policy">
+          <a class="item active ga-l-privacy-landing" href="https://roburst.co/privacy-policy">
                             Privacy Policy
                         </a>
-                                                </div>
-            <span class="copyright">
+        </div>
+        <span class="copyright">
             &copy 2018 Roburst Network team
         </span>
-        </div>
+      </div>
     </div>
-</footer>
-<div class="video-wrap js-video-wrap js-video-close"></div>
-<div class="video-container js-video-container js-video-close">
+  </footer>
+  <div class="video-wrap js-video-wrap js-video-close"></div>
+  <div class="video-container js-video-container js-video-close">
     <div class="wrap">
-        <iframe src="" frameborder="0" allowfullscreen></iframe>
+      <iframe src="" frameborder="0" allowfullscreen></iframe>
     </div>
-</div>
-<div>
+  </div>
+  <div>
     <svg>
     <defs>
         <symbol id="l-diamond" viewBox="0 0 47 41">
@@ -1401,16 +1638,21 @@
         <symbol id="l-linkedin" viewBox="0 0 24 24">
         <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
         </symbol>
+        <symbol id="icon-home3" viewBox="0 0 32 32">
+        <title>home3</title>
+        <path d="M32 19l-6-6v-9h-4v5l-6-6-16 16v1h4v10h10v-6h4v6h10v-10h4z"></path>
+        </symbol>
     </defs>
 </svg></div>
-<script type="text/javascript" src="js/scripts.min.js"></script>
-<script>
+  <script type="text/javascript" src="js/scripts.min.js"></script>
+  <script>
     $(".spincrement").spincrement({
-        from: 0,
-        to: null,
-        duration: 1000,
-        leeway: 0
+      from: 0,
+      to: null,
+      duration: 1000,
+      leeway: 0
     });
-</script>
+  </script>
 </body>
+
 </html>
