@@ -13,4 +13,22 @@ jQuery(document).ready(function($) {
       }
     });
   }
+  $.ajax({
+    url: 'https://roburst.co/api/presale_sold_amount',
+    data: {
+
+    },
+    type: "POST",
+    dataType: "json",
+    beforeSend: function() {
+
+    },
+    success: function(t) {
+      console.log(t.amount);
+      $('#icoSold').html(Number(t.amount));
+
+    },
+    error: function(t) {
+    }
+  })
 });
