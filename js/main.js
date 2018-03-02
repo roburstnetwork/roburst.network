@@ -25,10 +25,11 @@ jQuery(document).ready(function($) {
     },
     success: function(t) {
       console.log(t.amount);
-      $('#icoSold').html(Number(t.amount));
+      $('#icoSold').html(('' + t.amount).replace(/./g, function(c, i, a) {
+        return i && c !== "." && ((a.length - i) % 3 === 0) ? ',' + c : c;
+      }));
 
     },
-    error: function(t) {
-    }
+    error: function(t) {}
   })
 });
