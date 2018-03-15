@@ -117,24 +117,6 @@ i {
     display: block;
 }
 
-div.gallery img {
-    max-width: 100%;
-    max-height: 80px;
-    vertical-align: middle;
-    display: block;
-    margin: auto;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 23%;
-}
-
-.press-partner {
-  margin-bottom: 100px;
-}
-
 .g-font-bold {
   font-weight: bold;
   font-family: 'SFProText', Arial, 'Helvetica Neue', sans-serif;
@@ -2692,7 +2674,7 @@ svg {
     line-height: 1.57;
   }
   .landing-page .content .content-section.section-press .press-blocks-wrap {
-    padding: 51px 0 100px 0;
+    padding: 51px 0 129px 0;
   }
   .landing-page .content .content-section.section-press .press-blocks-wrap .press-block {
     margin-bottom: 44px;
