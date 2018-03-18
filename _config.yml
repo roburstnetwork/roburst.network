@@ -1,0 +1,86 @@
+# ----
+# Site
+
+title: Roburst Network
+url: "https://roburst.network"
+baseurl:
+google_analytics_key: UA-114861712-1
+google_maps_javascript_api_key:
+disqus_shortname:
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Roburst Network is the next generation of cryptocurrency network with unique features and improvements.
+image: /images/cover.png
+lang: en
+author:
+  name:
+  email:
+  twitter: roburstnetwork # twitter username without the @ symbol
+social:
+  name: Roburst Network
+  links:
+    - https://roburst.network
+
+# -----
+# Build
+
+timezone: Etc/UTC
+
+paginate: 10
+paginate_path: "/blog/:num/"
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        content:
+          width: 1500
+          height: 2500
+
+  -
+    scope:
+      path: ""
+    values:
+      layout: "child"
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "main"
+
+jekyll-archives:
+  enabled:
+    - categories
+
+plugins:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+# -----------
+# CloudCannon
+
+social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - RSS

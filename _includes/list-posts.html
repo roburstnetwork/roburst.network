@@ -1,0 +1,10 @@
+{% for post in include.posts %}
+	<li class="blog-post">
+		<h1><a style="color: #121212;" href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></h3>
+		{% include post-title.html post=post %}
+		<div class="post-content">
+			{{ post.excerpt }}
+			<div style="float: left;"><a class="uikit-button-read-more" href="{% include relative-src.html src=post.url %}">Read More</a></div>
+		</div>
+	</li>
+{% endfor %}

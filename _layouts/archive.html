@@ -1,0 +1,21 @@
+---
+layout: child
+---
+
+<div class="wrapper">
+	<div class="content">
+			{% assign blog = site.pages | where: "path", "blog/index.html" | first %}
+
+	{% if blog.title %}
+		<h1>{{ blog.title }}</h1>
+	{% endif %}
+<div class="container privacy-policy">
+	<div class="center-text">
+		<span class="blog-filter cross"><a href="{{ site.baseurl }}/blog/">{{ page.title | capitalize }}</a></span>
+	</div>
+
+	<ul class="blog-posts">
+		{% include list-posts.html posts=page.posts %}
+	</ul>
+</div>
+</div>
