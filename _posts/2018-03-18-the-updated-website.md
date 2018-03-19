@@ -6,7 +6,7 @@ categories:
 ---
 
 You may notice that we have upgraded our website! Now we can write news without the need of a 3rd-party service. Thanks to
-Jekyll for the help :D. The new website will be updated with our news daily, that's why, you can subscribe to get the newsletter. Below is the full changelog for our website:
+Jekyll for the help :D. The new website will be updated with our news daily, that's why, you can subscribe to get the newsletter. Below is some highlight changes of our website:
 
 ## New: Blog
 
