@@ -1,12 +1,13 @@
 ---
 date: 2018-03-21
-title: Korean Whitepaper and Lightpaper is available!
+title: Korean Whitepaper and Lightpaper are available!
 categories:
   - whitepaper
+  - lightpaper
   - news
 ---
 
-We have updated the Korean translation of our whitepaper in the Download section. If you speaks Korean, you may want to take a look there. Or simply view it here!
+We have updated the Korean translation of our whitepaper and lightpaper in the Download section. If you speaks Korean, you may want to take a look there. Or simply view it here!
 
 # Lightpaper
 <object data="{{site.baseurl}}/downloads/lightpaper_kr.pdf" type="application/pdf" width="100%" height="800px">
