@@ -12,13 +12,13 @@ We have updated the Korean translation of our whitepaper and lightpaper in the D
 # Lightpaper
 <object data="{{site.baseurl}}/downloads/lightpaper_kr.pdf" type="application/pdf" width="100%" height="800px">
   <p>It appears you don't have a PDF plugin for this browser.
-   No problem... you can <a href="{{site.baseurl}}/downloads/whitepaper_ae.pdf">click here to
+   No problem... you can <a href="{{site.baseurl}}/downloads/whitepaper_kr.pdf">click here to
   download the PDF file.</a></p>  
  </object>
 
 # Whitepaper
 <object data="{{site.baseurl}}/downloads/whitepaper_kr.pdf" type="application/pdf" width="100%" height="800px">
   <p>It appears you don't have a PDF plugin for this browser.
-   No problem... you can <a href="{{site.baseurl}}/downloads/whitepaper_ae.pdf">click here to
+   No problem... you can <a href="{{site.baseurl}}/downloads/whitepaper_kr.pdf">click here to
   download the PDF file.</a></p>  
  </object>
