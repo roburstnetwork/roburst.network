@@ -3691,7 +3691,7 @@ svg {
   color: #9ea6ab;
   letter-spacing: .9px;
   margin-bottom: 39px;
-  padding-left: 240px;
+  float: right;
 }
 
 .my-page .content section {
