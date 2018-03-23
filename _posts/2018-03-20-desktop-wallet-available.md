@@ -30,9 +30,9 @@ Features:
 
 
 You can get it here:
-[![macOS download](https://i.imgur.com/ewhQqNa.png)](https://github.com/roburstnetwork/download/raw/master/Roburst_Wallet-darwin-x64.zip)
+[![macOS download](https://i.imgur.com/ewhQqNa.png)](https://s3.amazonaws.com/roburstnetwork/Roburst_Wallet-darwin-x64.zip)
 *macOS 10.8 or higher*
-[![Windows download](https://i.imgur.com/PNbUhfl.jpg)](https://github.com/roburstnetwork/download/raw/master/Roburst_Wallet-windows-32bit.exe)
+[![Windows download](https://i.imgur.com/PNbUhfl.jpg)](https://s3.amazonaws.com/roburstnetwork/Roburst_Wallet-windows-32bit.exe)
 *Windows 7 or higher*
 
 
