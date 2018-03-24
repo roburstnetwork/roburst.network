@@ -44,6 +44,10 @@ As you may see, we have updated the calendar for ICO at [https://roburst.co/](ht
 
 During the ICO stages, there will be a game availale for everybody to play. Everyday, you will get a free spin for the lucky wheel. The prizes contain various amount of ROC, an iPhone X or a free upgrade to "Early-bird Investor" tier. For every referral you make, you will get 2 spins. The maximum spin you can get from referral in a day is 10 spins. Also, for every 100 ROC you purchase, you will get 1 spin. Sounds fun? Let's try it out.
 
+## Mobile Wallet
+
+We have made a lot of progress on the mobile wallet, it will be available soon. We expect to release the Android application by April 3rd, 2018. The features of the mobile wallet is the same as the web wallet plus the ability to scan QR code and some extra authentication. Stay tuned!
+
 ## Airdrop is still available
 
 ![Airdrop cover](https://i.imgur.com/B4S7tSl.png)
